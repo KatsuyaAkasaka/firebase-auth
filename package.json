@@ -1,0 +1,36 @@
+{
+  "name": "firebase-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node main.js",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatsuyaAkasaka/firebase-auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatsuyaAkasaka/firebase-auth/issues"
+  },
+  "homepage": "https://github.com/KatsuyaAkasaka/firebase-auth#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "firebase": "^7.9.1",
+    "firebase-tools": "^7.13.1",
+    "firebaseui": "^4.4.0",
+    "fs": "0.0.1-security",
+    "serve": "^11.3.0",
+    "webpack": "^4.41.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}

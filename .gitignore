@@ -1,0 +1,4 @@
+node_modules/
+public/dist/
+.envrc
+secret.yaml
