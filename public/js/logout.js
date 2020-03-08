@@ -5,7 +5,7 @@ function logout() {
     .then(()=>{
         location.href = '/';
     })
-    .catch( (error)=>{
+    .catch((error)=>{
         console.log(`ログアウト時にエラーが発生しました (${error})`);
     });
 };
